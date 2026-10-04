@@ -277,6 +277,9 @@
       *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
     }
     @media (min-width: 1500px) { :root { --page: 1260px; } .hero { padding-block: 106px; } .hero-visual { min-height: 470px; } }
+    @media (min-width: 1100px) {
+      html { zoom: 1.4; }
+    }
     @media (max-width: 900px) {
       .wrap { width: min(var(--page), calc(100% - 44px)); }
       .nav-links { gap: 19px; }
